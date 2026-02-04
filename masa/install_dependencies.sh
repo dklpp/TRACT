@@ -12,7 +12,7 @@ pip install -U openmim
 echo "Installing packages with MIM..."
 mim install mmengine
 pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html
-pip install git+ssh://git@github.com/open-mmlab/mmdetection.git@v3.3.0
+pip install git+https://github.com/open-mmlab/mmdetection.git@v3.3.0
 
 # Install various Python packages using pip
 echo "Installing various Python packages..."
@@ -23,11 +23,11 @@ pip install h5py
 pip install einops
 pip install seaborn
 pip install fairscale
-pip install git+ssh://git@github.com/openai/CLIP.git
-pip install git+ssh://git@github.com/siyuanliii/TrackEval.git
-pip install git+ssh://git@github.com/SysCV/tet.git#subdirectory=teta
-pip install git+ssh://git@github.com/scalabel/scalabel.git@scalabel-evalAPI
-pip install git+ssh://git@github.com/TAO-Dataset/tao
-pip install git+ssh://git@github.com/lvis-dataset/lvis-api.git
+pip install git+https://github.com/openai/CLIP.git
+pip install git+https://github.com/siyuanliii/TrackEval.git
+pip install git+https://github.com/SysCV/tet.git#subdirectory=teta
+pip install git+https://github.com/scalabel/scalabel.git@scalabel-evalAPI
+pip install git+https://github.com/TAO-Dataset/tao
+pip install git+https://github.com/lvis-dataset/lvis-api.git
 
 echo "All packages installed successfully!"
